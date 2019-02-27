@@ -25,10 +25,15 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', { useNewUrlParser: true
 
 	// db.collection('Users').deleteMany({name: 'Ziad Al Juhany'});
 
-	db.collection('Users').findOneAndDelete({
-		_id: new ObjectID('5c6789b92d8e0e705e9d85e6')}).then((results) => {
-		console.log(JSON.stringify(results, undefined, 2));
-	});
+	// db.collection('Users').findOneAndDelete({
+	// 	_id: new ObjectID('5c6789b92d8e0e705e9d85e6')}).then((results) => {
+	// 	console.log(JSON.stringify(results, undefined, 2));
+	// });
+
+	// db.collection('Users').findOneAndDelete({
+	// 	_id: ObjectID('5c6789b92d8e0e705e9d85e6')}).then((result) => {
+	// 	console.log(result);
+	// });	
 
 	// client.close();
 });
