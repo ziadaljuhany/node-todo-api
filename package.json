@@ -5,12 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "nodemon": "^1.18.10"
   },
   "devDependencies": {
     "expect": "^24.1.0",
     "mocha": "^6.0.2",
-    "nodemon": "^1.18.10",
     "supertest": "^3.4.2"
   },
   "scripts": {
