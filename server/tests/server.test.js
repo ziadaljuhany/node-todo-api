@@ -11,13 +11,9 @@ const todos = [{
 }];
 
 beforeEach((done) => {
-<<<<<<< HEAD
 	Todo.deleteMany({}).then(() => {
 		return Todo.insertMany(todos);
 	}).then(() => done());
-=======
-	Todo.deleteMany({}).then(() => done());
->>>>>>> 5348904504cea8931fcfe60a253603b0c987d07d
 });
 
 describe('POST /todos', () => {
@@ -61,7 +57,6 @@ describe('POST /todos', () => {
 			});
 	});
 });
-<<<<<<< HEAD
 
 describe('GET /todos', () => {
 	it('should get all todos', (done) => {
@@ -74,5 +69,3 @@ describe('GET /todos', () => {
 		.end(done);
 	});
 });
-=======
->>>>>>> 5348904504cea8931fcfe60a253603b0c987d07d
