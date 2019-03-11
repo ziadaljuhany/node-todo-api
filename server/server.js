@@ -54,7 +54,7 @@ app.listen(3000, () => {
 
 module.exports = {app};
 
-// ziad aljuhany
+// ziad
 
 // var newTodo = new Todo({
 // 	text: 'Cook dinner'
