@@ -54,8 +54,6 @@ app.listen(3000, () => {
 
 module.exports = {app};
 
-// ziad
-
 // var newTodo = new Todo({
 // 	text: 'Cook dinner'
 // });
