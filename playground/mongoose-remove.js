@@ -8,6 +8,6 @@ const {User} = require('./../server/models/user');
 // 	console.log(result);
 // });
 
-Todo.findOneAndDelete('5c88aa13c0d9f013641f8b76').then((todo) => {
+Todo.findByIdAndRemove('5c8b475f194af90d9c64b027').then((todo) => {
 	console.log(todo);
 });
