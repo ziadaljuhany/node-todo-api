@@ -6,6 +6,6 @@ mongoose.Promise =  global.Promise;
 // mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
 
 // Connect to Local App
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useFindAndModify: false });
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true });
 
 module.exports = {mongoose};
